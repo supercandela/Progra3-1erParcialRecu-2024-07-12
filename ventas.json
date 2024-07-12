@@ -1,0 +1,62 @@
+[
+    {
+        "fecha": "2024-07-07",
+        "precio": 5500,
+        "usuario": "fabricio@mail.com",
+        "cantidad": 8,
+        "nombre": "s9",
+        "tipo": "tablet",
+        "marca": "samsung",
+        "id": 73,
+        "pedido": 895778,
+        "borrada": false
+    },
+    {
+        "fecha": "2024-07-08",
+        "precio": 3300,
+        "usuario": "candela@mail.com",
+        "cantidad": 3,
+        "nombre": "s22",
+        "tipo": "smartphone",
+        "marca": "samsung",
+        "id": 91,
+        "pedido": 654890,
+        "borrada": false
+    },
+    {
+        "fecha": "2024-07-09",
+        "precio": 1100,
+        "usuario": "alejandro@mail.com",
+        "cantidad": 1,
+        "nombre": "s22",
+        "tipo": "smartphone",
+        "marca": "samsung",
+        "id": 73,
+        "pedido": 895776,
+        "borrada": false
+    },
+    {
+        "fecha": "2024-07-09",
+        "precio": 1100,
+        "usuario": "candela@mail.com",
+        "cantidad": 1,
+        "nombre": "s22",
+        "tipo": "smartphone",
+        "marca": "samsung",
+        "id": 91,
+        "pedido": 654895,
+        "borrada": true
+    },
+    {
+        "fecha": "2024-07-12",
+        "precio": 1800,
+        "usuario": "fabricio@mail.com",
+        "cantidad": 2,
+        "nombre": "ipad9",
+        "tipo": "tablet",
+        "marca": "mac",
+        "id": 18,
+        "pedido": 789952,
+        "borrada": false
+    }
+]

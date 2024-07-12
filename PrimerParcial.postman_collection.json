@@ -1,0 +1,491 @@
+{
+	"info": {
+		"_postman_id": "a2366dcd-c2ac-4c31-961d-dc034df7acd2",
+		"name": "PrimerParcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "27248795"
+	},
+	"item": [
+		{
+			"name": "tiendaAlta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "accion",
+							"value": "tiendaAlta",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "IPad9",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "1800",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "tablet",
+							"type": "text"
+						},
+						{
+							"key": "marca",
+							"value": "Mac",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Administrator/Desktop/cel.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1/PrimerParcial/index.php"
+			},
+			"response": []
+		},
+		{
+			"name": "consultarProducto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "accion",
+							"value": "consultarProducto",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "Ipad9",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "tablet",
+							"type": "text"
+						},
+						{
+							"key": "marca",
+							"value": "Mac",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1/PrimerParcial/index.php"
+			},
+			"response": []
+		},
+		{
+			"name": "altaVenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "accion",
+							"value": "altaVenta",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "fran@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "Ipad9",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "tablet",
+							"type": "text"
+						},
+						{
+							"key": "marca",
+							"value": "Mac",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Administrator/Desktop/perfil.jpg"
+						}
+					]
+				},
+				"url": "http://127.0.0.1/PrimerParcial/index.php"
+			},
+			"response": []
+		},
+		{
+			"name": "consultaVentas-por fecha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php?accion=consultaVentas&fecha=2024/07/09",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "consultaVentas"
+						},
+						{
+							"key": "fecha",
+							"value": "2024/07/09"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaVentas-por usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php?accion=consultaVentas&usuario=alejandro@mail.com",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "consultaVentas"
+						},
+						{
+							"key": "usuario",
+							"value": "alejandro@mail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaVentas-por tipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php?accion=consultaVentas&tipo=tablet",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "consultaVentas"
+						},
+						{
+							"key": "tipo",
+							"value": "tablet"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaVentas-por precio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php?accion=consultaVentas&precioMin=1100&precioMax=6000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "consultaVentas"
+						},
+						{
+							"key": "precioMin",
+							"value": "1100"
+						},
+						{
+							"key": "precioMax",
+							"value": "6000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaVentas- ganancias en fecha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php?accion=consultaVentas&gananciasEnFecha=2024-07-12",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "consultaVentas"
+						},
+						{
+							"key": "gananciasEnFecha",
+							"value": "2024-07-12"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultaVentas- producto mas vendido",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php?accion=consultaVentas&productoMasVendido=",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "accion",
+							"value": "consultaVentas"
+						},
+						{
+							"key": "productoMasVendido",
+							"value": ""
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modificarVenta",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "accion",
+							"value": "modificarVenta",
+							"type": "text"
+						},
+						{
+							"key": "usuario",
+							"value": "fabricio@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "IPad9",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "tablet",
+							"type": "text"
+						},
+						{
+							"key": "marca",
+							"value": "Mac",
+							"type": "text"
+						},
+						{
+							"key": "pedido",
+							"value": "789952",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1/PrimerParcial/index.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"PrimerParcial",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "altaConjunto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "accion",
+							"value": "altaConjunto",
+							"type": "text"
+						},
+						{
+							"key": "smartphone_nombre",
+							"value": "S22",
+							"type": "text"
+						},
+						{
+							"key": "smartphone_marca",
+							"value": "samsung",
+							"type": "text"
+						},
+						{
+							"key": "tablet_nombre",
+							"value": "s9",
+							"type": "text"
+						},
+						{
+							"key": "tablet_marca",
+							"value": "samsung",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/Administrator/Desktop/cel.jpg"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": "http://127.0.0.1/PrimerParcial/index.php"
+			},
+			"response": []
+		},
+		{
+			"name": "borrarVenta",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "accion",
+							"value": "borrarVenta",
+							"type": "text"
+						},
+						{
+							"key": "pedido",
+							"value": "654895",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1/PrimerParcial/index.php"
+			},
+			"response": []
+		}
+	]
+}

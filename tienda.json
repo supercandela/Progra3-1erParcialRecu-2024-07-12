@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "s9",
+        "precio": 800,
+        "tipo": "tablet",
+        "marca": "samsung",
+        "stock": 9,
+        "id": 562
+    },
+    {
+        "nombre": "Redmi 10",
+        "precio": 500,
+        "tipo": "smartphone",
+        "marca": "xiaomi",
+        "stock": 2,
+        "id": 570
+    },
+    {
+        "nombre": "s22",
+        "precio": 1100,
+        "tipo": "smartphone",
+        "marca": "samsung",
+        "stock": 23,
+        "id": 457
+    },
+    {
+        "nombre": "Moto X",
+        "precio": 600,
+        "tipo": "smartphone",
+        "marca": "motorola",
+        "stock": 15,
+        "id": 300
+    },
+    {
+        "nombre": "mi tab 10",
+        "precio": 500,
+        "tipo": "tablet",
+        "marca": "xiaomi",
+        "stock": 15,
+        "id": 850
+    },
+    {
+        "tipo": "conjunto",
+        "smartphone_nombre": "s22",
+        "smartphone_marca": "samsung",
+        "tablet_nombre": "s9",
+        "tablet_marca": "samsung",
+        "precio_total": 1900,
+        "id": 406
+    },
+    {
+        "tipo": "conjunto",
+        "smartphone_nombre": "s22",
+        "smartphone_marca": "samsung",
+        "tablet_nombre": "s9",
+        "tablet_marca": "samsung",
+        "precio_total": 1900,
+        "id": 454
+    },
+    {
+        "nombre": "ipad9",
+        "precio": 1800,
+        "tipo": "tablet",
+        "marca": "mac",
+        "stock": 9,
+        "id": 72
+    }
+]
